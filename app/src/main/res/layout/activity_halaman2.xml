@@ -3,7 +3,8 @@
     android:id="@+id/mediaItem"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bgputih">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -19,6 +20,7 @@
         android:layout_width="30dp"
         android:layout_height="30dp"/>
     <TextView
+        android:textSize="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/masker"/>
@@ -29,16 +31,16 @@
         android:orientation="horizontal">
         <ImageButton
             android:id="@+id/back"
-            android:layout_width="50dp"
-            android:layout_height="100dp"
+            android:layout_width="40dp"
+            android:layout_height="65dp"
             android:scaleType="fitCenter"
             android:background="@null"
             android:layout_weight="1"
             android:src="@drawable/back"/>
         <ImageButton
             android:id="@+id/next"
-            android:layout_width="50dp"
-            android:layout_height="100dp"
+            android:layout_width="40dp"
+            android:layout_height="58dp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:background="@null"

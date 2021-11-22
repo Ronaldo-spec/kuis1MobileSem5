@@ -6,26 +6,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/mainLayout"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/title1"
         android:layout_width="match_parent"
         android:layout_height="30pt"
-        android:id="@+id/title1"
-        android:textSize="24pt"
-        android:layout_margin="10dp"
-        android:text="Protokol"
-        android:textColor="@color/black"
+        android:layout_marginRight="7mm"
         android:gravity="center"
-        />
+        android:text="Pusat Informasi"
+        android:textColor="@color/black"
+        android:textSize="15pt" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30pt"
         android:id="@+id/title2"
         android:textSize="24pt"
-        android:layout_margin="10dp"
-        android:text="Kesehatan"
+        android:layout_marginRight="7mm"
+        android:text="Pandemi"
         android:textColor="@color/black"
         android:gravity="center"
         />
@@ -49,14 +49,14 @@
                 app:cardElevation="8dp"
                 app:cardCornerRadius="10dp">
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_width="162dp"
+                    android:layout_height="162dp"
                     android:id="@+id/cucitangan"
                     android:transitionName="fade_trans"
                     android:src="@drawable/cuci_tangan"
                     android:adjustViewBounds="true"
                     android:cropToPadding="false"
-                    android:background="@color/white"
+                    android:background="@color/siji"
                     android:scaleType="fitXY"
                     />
             </androidx.cardview.widget.CardView>
@@ -71,14 +71,14 @@
                 app:cardElevation="8dp"
                 app:cardCornerRadius="10dp">
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_width="162dp"
+                    android:layout_height="162dp"
                     android:id="@+id/jaga_jarak"
                     android:transitionName="fade_trans"
                     android:src="@drawable/pakai_masker"
                     android:adjustViewBounds="true"
                     android:cropToPadding="false"
-                    android:background="@color/white"
+                    android:background="@color/loro"
                     android:scaleType="fitXY"
                     />
             </androidx.cardview.widget.CardView>
@@ -92,14 +92,14 @@
                 app:cardElevation="8dp"
                 app:cardCornerRadius="10dp">
                 <ImageButton
-                    android:layout_width="180dp"
-                    android:layout_height="180dp"
+                    android:layout_width="162dp"
+                    android:layout_height="162dp"
                     android:id="@+id/masker"
                     android:transitionName="fade_trans"
                     android:src="@drawable/ppkm"
                     android:adjustViewBounds="true"
                     android:cropToPadding="false"
-                    android:background="@color/white"
+                    android:background="@color/telu"
                     android:scaleType="fitXY"
                     />
             </androidx.cardview.widget.CardView>
@@ -113,14 +113,14 @@
                 app:cardElevation="8dp"
                 app:cardCornerRadius="10dp">
                 <ImageButton
-                    android:layout_width="180dp"
-                    android:layout_height="180dp"
+                    android:layout_width="162dp"
+                    android:layout_height="162dp"
                     android:id="@+id/vaksin"
                     android:transitionName="fade_trans"
                     android:src="@drawable/vaksin"
                     android:adjustViewBounds="true"
                     android:cropToPadding="false"
-                    android:background="@color/white"
+                    android:background="@color/papat"
                     android:scaleType="fitXY"
                     />
             </androidx.cardview.widget.CardView>
@@ -133,8 +133,8 @@
 
         <ImageButton
             android:id="@+id/mediaButton"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
             android:layout_marginLeft="25dp"
             android:background="@null"
             android:scaleType="fitCenter"
@@ -142,8 +142,8 @@
 
         <ImageButton
             android:id="@+id/finishButton"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
             android:layout_marginLeft="30dp"
             android:background="@null"
             android:scaleType="fitXY"
@@ -151,11 +151,20 @@
 
         <ImageButton
             android:id="@+id/media3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
             android:layout_marginLeft="30dp"
             android:background="@null"
             android:scaleType="fitXY"
             android:src="@drawable/polinema" />
+
+        <ImageButton
+            android:id="@+id/media4"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="30dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/rs"/>
     </LinearLayout>
 </LinearLayout>

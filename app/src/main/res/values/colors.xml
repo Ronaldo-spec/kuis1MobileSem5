@@ -13,6 +13,10 @@
     <color name="lightBackground">#FF03DAC5</color>
     <color name="textTitle">#FCF08F</color>
     <color name="invert_color">#ACACAC</color>
+    <color name="siji">#2dbda4</color>
+    <color name="loro">#d6ffd7</color>
+    <color name="telu">#15497b</color>
+    <color name="papat">#82da52</color>
 
 
     <array name="animal_color">
