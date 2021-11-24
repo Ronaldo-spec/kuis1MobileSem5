@@ -1,10 +1,14 @@
 package org.aplas.kuis;
 
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     Button btn2, btn3, btn4;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +59,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        ImageButton saran= findViewById(R.id.media5);
+        saran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,MainSaran.class);
+                startActivity(a);
+            }
+        });
 
     }
+
+
 }

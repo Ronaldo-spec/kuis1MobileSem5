@@ -11,25 +11,23 @@
 
     <TextView
         android:id="@+id/title1"
-        android:layout_width="match_parent"
+        android:layout_width="301dp"
         android:layout_height="30pt"
-        android:layout_marginRight="7mm"
+        android:layout_marginLeft="22dp"
         android:gravity="center"
         android:text="Pusat Informasi"
         android:textColor="@color/black"
         android:textSize="15pt" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="30pt"
         android:id="@+id/title2"
-        android:textSize="24pt"
+        android:layout_width="214dp"
+        android:layout_height="30pt"
+        android:layout_marginLeft="75dp"
         android:layout_marginRight="7mm"
         android:text="Pandemi"
         android:textColor="@color/black"
-        android:gravity="center"
-        />
-
+        android:textSize="24pt" />
     <GridLayout
         android:id="@+id/invertGrid"
         android:columnCount="2"
@@ -118,7 +116,7 @@
                     android:id="@+id/vaksin"
                     android:transitionName="fade_trans"
                     android:src="@drawable/vaksin"
-                    android:adjustViewBounds="true"
+                        android:adjustViewBounds="true"
                     android:cropToPadding="false"
                     android:background="@color/papat"
                     android:scaleType="fitXY"
@@ -135,36 +133,29 @@
             android:id="@+id/mediaButton"
             android:layout_width="57dp"
             android:layout_height="57dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginLeft="13dp"
             android:background="@null"
             android:scaleType="fitCenter"
-            android:src="@drawable/k3" />
-
-        <ImageButton
-            android:id="@+id/finishButton"
-            android:layout_width="57dp"
-            android:layout_height="57dp"
-            android:layout_marginLeft="30dp"
-            android:background="@null"
-            android:scaleType="fitXY"
             android:src="@drawable/pmi" />
 
         <ImageButton
-            android:id="@+id/media3"
-            android:layout_width="57dp"
-            android:layout_height="57dp"
-            android:layout_marginLeft="30dp"
+            android:id="@+id/media5"
+            android:layout_marginTop="4dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
             android:background="@null"
             android:scaleType="fitXY"
-            android:src="@drawable/polinema" />
+            android:src="@drawable/saran"/>
 
         <ImageButton
             android:id="@+id/media4"
             android:layout_width="57dp"
             android:layout_height="57dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="8dp"
             android:background="@null"
             android:scaleType="fitXY"
-            android:src="@drawable/rs"/>
+            android:src="@drawable/polinema"/>
     </LinearLayout>
+
 </LinearLayout>

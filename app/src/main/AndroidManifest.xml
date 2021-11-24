@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".UpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainSaran"
+            android:exported="true" />
+        <activity
             android:name=".CreateActivity"
             android:exported="true" />
         <activity
