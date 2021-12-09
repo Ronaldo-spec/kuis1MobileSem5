@@ -1,5 +1,6 @@
 package org.aplas.kuis;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -8,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class CreateActivity extends AppCompatActivity {
     protected Cursor cursor;
@@ -18,6 +21,16 @@ public class CreateActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create);
+
+        FloatingActionButton back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(CreateActivity.this,MainSaran.class);
+                startActivity(a);
+            }
+        });
+
         database = new Database(this);
         nama = findViewById(R.id.nama);
         email = findViewById(R.id.email);

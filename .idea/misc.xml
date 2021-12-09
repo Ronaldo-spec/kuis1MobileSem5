@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout-land/activity_quiz.xml" value="0.1781305114638448" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_create.xml" value="0.25" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_detail.xml" value="0.22447916666666667" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_detail_protokol.xml" value="0.13994565217391305" />
@@ -10,10 +11,12 @@
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_halaman2.xml" value="0.13994565217391305" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_halaman3.xml" value="0.13994565217391305" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_halaman4.xml" value="0.13994565217391305" />
+        <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_halamanquiz.xml" value="0.22447916666666667" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_main_saran.xml" value="0.22447916666666667" />
+        <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_quiz.xml" value="0.21041666666666667" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_saran.xml" value="0.22447916666666667" />
-        <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_update.xml" value="0.10989583333333333" />
+        <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/activity_update.xml" value="0.17" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/item_row.xml" value="0.13994565217391305" />
         <entry key="..\:/CODING/Semester 5/Mobile/Kuis/app/src/main/res/layout/mylist.xml" value="0.13858695652173914" />
       </map>
